@@ -8,6 +8,9 @@ if Meteor.isClient
     @route "home",
       path: "/"
       
+  Handlebars.registerHelper "email", (val) ->
+    Meteor.user()?.emails[0]?.address || "-"
+
 
 if Meteor.isServer
   Meteor.startup () ->

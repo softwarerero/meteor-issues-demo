@@ -9,3 +9,7 @@ You may need to add the following packages manually:
 * mrt add accounts-password
 * mrt add iron-router
 * mrt add bootstrap-3
+
+## Screenshot
+
+![ScreenShot](/shot01.png)
