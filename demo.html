@@ -1,0 +1,19 @@
+<head>
+  <title>demo</title>
+</head>
+
+<template name='home'>
+  
+</template>
+
+<template name='layout'>
+	<div id='wrap'>
+    <a href='{{pathFor 'issues'}}'><i class='fa fa-bug'></i> Asuntos</a>
+    | <a href='{{pathFor 'versions'}}'><i class='fa fa-bug'></i> Versiones</a>
+    <div class='pull-right'>Your are {{#unless currentUser}}not{{/unless}} automatically logged in.</div>
+
+	  <div id='page-wrapper' class='content'>
+		  {{yield}}
+	  </div>
+  </div>
+</template>

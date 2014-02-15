@@ -1,0 +1,12 @@
+{
+  "name": "issues-demo",
+  "description": "Demo for the meteor package issues.",
+  "homepage": "https://github.com/softwarerero/meteor-issues-demo",
+  "author": "el@softwarerero.com",
+  "version": "0.0.1",
+  "git": "https://github.com/softwarerero/meteor-issues-demo",
+  "packages": {
+    "issues": {},
+    "bootstrap-3": {}
+  }
+}
