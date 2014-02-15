@@ -1,9 +1,11 @@
-# Demonstrate the use of the issues package
+# Demonstrate the use of the issues package.
 
-These packages where added/removed manually to the demo application:
-mrt add coffeescript
-mrt add issues
-mrt remove autopublish
-mrt add accounts-password
-mrt add iron-router
-mrt add bootstrap-3
+You may need to add the following packages manually:
+
+* mrt add coffeescript
+* mrt add collection2
+* mrt add issues
+* mrt remove autopublish
+* mrt add accounts-password
+* mrt add iron-router
+* mrt add bootstrap-3

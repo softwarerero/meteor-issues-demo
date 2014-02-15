@@ -2,19 +2,25 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "issues": {
-        "path": ".."
-      },
-      "bootstrap-3": {}
+      "issues": {},
+      "bootstrap-3": {},
+      "collection2": {}
     },
     "packages": {
       "issues": {
-        "path": ".."
+        "git": "https://github.com/softwarerero/meteor-issues",
+        "tag": "v0.0.4",
+        "commit": "98da1d527849b05409ef5655ecd6c35cc505d55c"
       },
       "bootstrap-3": {
         "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
         "tag": "v3.1.0-1",
         "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+      },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.3.7",
+        "commit": "4c6c2dfd87af8cda321c80e1baea72842ad5c542"
       },
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
@@ -25,11 +31,6 @@
         "git": "https://github.com/subhog/meteor-just-i18n.git",
         "tag": "v0.1.1",
         "commit": "ce88ac66c0dc107dc2da93ce152616115838101f"
-      },
-      "collection2": {
-        "git": "https://github.com/aldeed/meteor-collection2.git",
-        "tag": "v0.3.7",
-        "commit": "4c6c2dfd87af8cda321c80e1baea72842ad5c542"
       },
       "autoform": {
         "git": "https://github.com/aldeed/meteor-autoform.git",

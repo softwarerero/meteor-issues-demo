@@ -1,12 +1,7 @@
 {
-  "name": "issues-demo",
-  "description": "Demo for the meteor package issues.",
-  "homepage": "https://github.com/softwarerero/meteor-issues-demo",
-  "author": "Stefan Undorf el@softwarerero.com",
-  "version": "0.0.3",
-  "git": "https://github.com/softwarerero/meteor-issues-demo",
   "packages": {
     "issues": {},
-    "bootstrap-3": {}
+    "bootstrap-3": {},
+    "collection2": {}
   }
 }
